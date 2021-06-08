@@ -1,0 +1,226 @@
+.bg{
+  background-image: url(1stSection.jpeg); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+#block{
+    width: 620px;
+}
+.textsection{
+    padding-top:372px;
+    padding-left: 82px;
+}
+.section_2{
+    background-color:#e8631c;
+    height:100vh;
+    width: 100%;
+    
+}
+.row{
+    margin-top:5%;
+    margin-left: 15%; 
+}
+.section_3{
+    background-color:black;
+    height: 100vh;
+    width: 100%;
+    
+}
+.icon2{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 60px;
+}
+
+.s4{
+    background-color:  #e8631c;
+    height: 100vh;
+    width: 100%;
+    
+}
+.left{
+    height: 100%;
+    width: 50%;
+    float: left;
+    /* background-color:red; */
+   
+     background-size:contain;
+       /* background-image: url('newimage3.png') ; */
+    background-repeat: no-repeat;
+    
+}
+.right{height: 100vh;
+    width: 50%;
+    float:right;
+    
+    /* background-color:green; */
+    }
+.righth1{
+        padding-top: 30%;
+        padding-right: 27%; 
+}
+.righth11{
+    padding-top: 30%;
+    padding-right: 14%; 
+}
+.rigthpre{
+    padding-top:3%;
+}
+.rightbtn{
+   margin-top:5%;
+   margin-left:21%;
+   padding-left: 3%;
+   padding-right:3%;
+}
+.s6{
+    background-color:  #080000;
+    height: 100vh;
+    width: 100%;
+    
+}
+.dflex{
+    padding-top:9%;
+}
+ 
+.dflex1{
+    padding-top:5%;
+    font-size:x-large;
+}
+ 
+.s7{
+    background-color:white;
+    height: 130%;
+    width: 100%;
+    background-image: url('image7.png');
+}
+.s7p{
+    padding-top:23%;
+}
+.bgss{
+    background-color:  #e8631c;
+}
+
+.s8{    background-color:  #e8631c;
+    height: 100vh;
+    width: 100%;
+    
+}
+.s8p{
+    padding-top:3%;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height:auto;
+    padding:50px 100px;
+    background-color:#080000;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    color:white;
+}
+footer .container{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+footer .container .sec{
+    margin-right: 30px;
+    
+}
+footer .container .sec.aboutus 
+{
+    width:40%;
+}
+footer .container .sec.aboutus h1{
+    position: relative;
+    color:#fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+footer .container .sec.aboutus  h1:before{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width:50px;
+    height:2px;
+    background:whitesmoke;
+}
+footer  p{
+    color:#999;
+}
+.socialmedia{
+    margin-top: 20px;
+    display: flex;
+}
+.socialmedia li{
+    list-style: none;
+}
+.socialmedia li a{
+    display: inline-block;
+    width:40px;
+    height:40px;
+    background:#222;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.socialmedia li a:hover{
+    background:wheat;
+}
+.socialmedia li a.fa{
+    color: green;
+    font: size 20px;
+}
+.quicklinks{
+    position: relative;
+    width: 15%;
+     
+}
+.quicklinks ul li{
+    list-style: none;
+    
+}
+.quicklinks ul li a{
+    color:#999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display:inline-block;
+     
+}
+.service{
+    position: relative;
+    width: 15%;;
+}
+.service ul li{
+    list-style: none;
+}
+.service ul li a{
+    color:#999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display:inline-block;
+}
+.other{
+    position: relative;
+    width: 15%;;
+}
+
+.other ul li{
+    list-style: none;
+}
+.other ul li a{
+    color:#999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display:inline-block;
+}
